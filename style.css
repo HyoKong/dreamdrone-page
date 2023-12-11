@@ -90,7 +90,9 @@ sup {
 }
 
 .logo {
-    margin-right: 10px; /* Adjust this value as needed for spacing */
+    height: 50px; /* Adjust the height as needed */
+    width: auto; /* This ensures the aspect ratio is maintained */
+    margin-right: 10px; /* Spacing between logo and title */
 }
 
 .title {
