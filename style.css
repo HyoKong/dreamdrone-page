@@ -86,7 +86,8 @@ sup {
 }
 .header {
     display: flex;
-    align-items: center;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: flex-start; /* Align items horizontally at the start */
 }
 
 .logo {
