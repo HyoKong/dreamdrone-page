@@ -66,16 +66,17 @@
         </tbody>
     </table>
 
-		<table border="0" align="center" class="affiliations" width="1200px">
+    <table border="0" align="center" class="affiliations" width="1200px">
         <tbody align="center">
             <tr>
                 <td style="text-align: right; width: 17%"></td>
-		    <td style="text-align: left; width:38%; ">&nbsp;<sup>2</sup>&nbsp;<a> Huawei International Pte. Ltd.</a></td>
+                <td style="text-align: left; width:25%; ">&nbsp;<sup>2</sup>&nbsp;<a> Huawei International Pte. Ltd.</a>
+                </td>
 
             </tr>
         </tbody>
     </table>
-	
+
     <table border="0" align="center" class="menu" style="margin-bottom: 8px;">
         <tbody>
             <tr>
@@ -365,8 +366,7 @@
             with exceptional visual quality. This approach marks a significant step in zero-shot perpetual view
             generation from textual prompts, enabling the creation of diverse scenes, including natural landscapes like
             oases and caves, as well as complex urban settings such as Lego-style street views. Code is available at
-            <a
-                href="https://github.com/HyoKong/DreamDrone">https://github.com/HyoKong/DreamDrone</a>.
+            <a href="https://github.com/HyoKong/DreamDrone">https://github.com/HyoKong/DreamDrone</a>.
         </p>
         <hr>
 
@@ -380,7 +380,8 @@
                 the novel view from $x_{t_2}'$. The cross-view self-attention module and feature-correspondence guidance
                 are applied to maintain consistency between $x_{t_2}$ and $x_{t_2}'$. The right side shows the wrapped
                 images and our generated novel view $I'$. Our method greatly alleviates blurring, in-consistency, and
-                distortion. The overall pipeline is zero-shot and training-free.</p>
+                distortion. The overall pipeline is zero-shot and training-free.
+            </p>
         </div>
         <div>
             <img style="padding: 0; display: block; margin: 0 auto; max-height: 100%; max-width: 100%;"
@@ -459,22 +460,42 @@
 
         <div align="center" style="margin-top: 3px">
             <div class="video-container">
-                <video controls autoplay loop muted playsinline style="width: 100%;">
-                    <source src="joined_videos/hotel.mp4" type="video/mp4">
+                <video controls autoplay loop muted playsinline style="width: 66%;">
+                    <source src="joined_videos/tunnel-h264.mp4" type="video/mp4">
                 </video>
                 <p class="prompt">walkthrough, an opulent hotel...</p>
             </div>
             <div class="video-container">
-                <video controls autoplay loop muted playsinline style="width: 100%;">
-                    <source src="joined_videos/ice_castle.mp4" type="video/mp4">
+                <video controls autoplay loop muted playsinline style="width: 66%;">
+                    <source src="joined_videos/lego-h264.mp4" type="video/mp4">
                 </video>
                 <p class="prompt" style="font-style: oblique; width: 500px">
-                    walkthrough, an opulent hotel with long, carpeted hallways, beautiful photo, masterpiece, indoor scene
+                    walkthrough, an opulent hotel with long, carpeted hallways, beautiful photo, masterpiece, indoor
+                    scene
                 </p>
             </div>
             <!-- Repeat the above pattern for each pair of videos -->
         </div>
-        
+
+        <div align="center" style="margin-top: 3px">
+            <div class="video-container">
+                <video controls autoplay loop muted playsinline style="width: 66%;">
+                    <source src="joined_videos/white_house-h264.mp4" type="video/mp4">
+                </video>
+                <p class="prompt">walkthrough, an opulent hotel...</p>
+            </div>
+            <div class="video-container">
+                <video controls autoplay loop muted playsinline style="width: 66%;">
+                    <source src="joined_videos/house-h264.mp4" type="video/mp4">
+                </video>
+                <p class="prompt" style="font-style: oblique; width: 500px">
+                    walkthrough, an opulent hotel with long, carpeted hallways, beautiful photo, masterpiece, indoor
+                    scene
+                </p>
+            </div>
+            <!-- Repeat the above pattern for each pair of videos -->
+        </div>
+
 
 
         <hr>
