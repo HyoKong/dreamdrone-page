@@ -289,4 +289,16 @@ code {
     width: 48%; /* Adjust the width as needed */
     float: left; /* This makes the containers sit side by side */
     margin: 1%; /* Provides some space between the containers */
+
+	display: flex; 
+    flex-direction: column;
+    align-items: center; /* Center-align items horizontally */
+    justify-content: center;
+}
+
+.videos-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust this as needed */
+    align-items: flex-start; /* To align items at the top */
 }

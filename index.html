@@ -96,7 +96,7 @@
                         <source src="joined_videos/lego-h264.mp4" type="video/mp4">
                     </video>
                     <p class="prompt" style="font-style: oblique;">
-                        a bustling cityscape entirely in Lego style.
+                        aerial view of city, lego style, high-resolution.
                     </p>
                 </div>
 
@@ -112,8 +112,7 @@
 
                 <div class="carousel-item ">
                     <video class="img-fluid" autoplay loop muted playsinline>
-                        <source src="joined_videos/cartoon-style-narrow-cave-h264.mp4"
-                            type="video/mp4">
+                        <source src="joined_videos/cartoon-style-narrow-cave-h264.mp4" type="video/mp4">
                     </video>
                     <p class="prompt" style="font-style: oblique;">
                         a cartoon-style narrow cave. The cave is filled with chests of treasure, maps, and pirate
@@ -438,13 +437,8 @@
         <hr>
         <p class="section"><b>Results</b></p>
         <p style="margin-top: 0px;">
-            Monocular depth predictions tend to
-            be inconsistent, even across nearby video frames. That is, there is
-            no guarantee the predicted depth of the frame would be well aligned with
-            the current scene geometry. We mitigate this problem by taking
-            a test-time training approach to finetune the depth prediction
-            model to be consistent as possible with the current scene geometry.
-        </p>
+
+        <!-- </p> -->
         <!-- <div align="center" style="margin-top: 3px">
             <video controls autoplay loop muted playsinline width="1000"
                 style="padding: 0; display: block; margin: 0 auto; height: auto; width: 70%">
@@ -470,40 +464,54 @@
         </div> -->
 
         <div align="center" style="margin-top: 3px">
-            <div class="video-container">
-                <video controls autoplay loop muted playsinline style="width: 66%;">
-                    <source src="joined_videos/tunnel-h264.mp4" type="video/mp4">
-                </video>
-                <p class="prompt" style="font-style: oblique; width: 500px">walkthrough, an opulent hotel...</p>
+            <div class="videos-row">
+                <div class="video-container">
+                    <video controls autoplay loop muted playsinline style="width: 66%;">
+                        <source src="joined_videos/tunnel-h264.mp4" type="video/mp4">
+                    </video>
+                    <p class="prompt" style="font-style: oblique; width: 500px">
+                        a scene of an underground tunnel, perhaps part of a mine or an ancient subterranean city. Wooden
+                        supports line the walls, and the path is lit by lanterns or torches, casting long shadows and
+                        suggesting a journey into the depths.
+                    </p>
+                </div>
+                <div class="video-container">
+                    <video controls autoplay loop muted playsinline style="width: 66%;">
+                        <source src="joined_videos/lego-h264.mp4" type="video/mp4">
+                    </video>
+                    <p class="prompt" style="font-style: oblique; width: 500px">
+                        aerial view of city, lego style, high-resolution.
+                    </p>
+                </div>
             </div>
-            <div class="video-container">
-                <video controls autoplay loop muted playsinline style="width: 66%;">
-                    <source src="joined_videos/lego-h264.mp4" type="video/mp4">
-                </video>
-                <p class="prompt" style="font-style: oblique; width: 500px">
-                    walkthrough, an opulent hotel with long, carpeted hallways, beautiful photo, masterpiece, indoor
-                    scene
-                </p>
-            </div>
+            
             <!-- Repeat the above pattern for each pair of videos -->
         </div>
-
         <div align="center" style="margin-top: 3px">
-            <div class="video-container">
-                <video controls autoplay loop muted playsinline style="width: 66%;">
-                    <source src="joined_videos/white_house-h264.mp4" type="video/mp4">
-                </video>
-                <p class="prompt">walkthrough, an opulent hotel...</p>
+            <div class="videos-row">
+                <div class="video-container">
+                    <video controls autoplay loop muted playsinline style="width: 66%;">
+                        <source src="joined_videos/house-h264.mp4" type="video/mp4">
+                    </video>
+                    <p class="prompt" style="font-style: oblique; width: 500px">
+                        a peaceful narrow and straight suburban street lined with family homes, manicured lawns at each side
+                        of the street.
+                    </p>
+                </div>
+                <div class="video-container">
+                    <video controls autoplay loop muted playsinline style="width: 66%;">
+                        <source src="joined_videos/white_house-h264.mp4" type="video/mp4">
+                    </video>
+                    <p class="prompt" style="font-style: oblique; width: 500px">
+                        an old cobblestone lane winding through the countryside. The lane passes by traditional stone
+                        cottages with thatched roofs and well-tended gardens, evoking a sense of nostalgia and timeless
+                        beauty.
+                    </p>
+                </div>
+
             </div>
-            <div class="video-container">
-                <video controls autoplay loop muted playsinline style="width: 66%;">
-                    <source src="joined_videos/house-h264.mp4" type="video/mp4">
-                </video>
-                <p class="prompt" style="font-style: oblique; width: 500px">
-                    walkthrough, an opulent hotel with long, carpeted hallways, beautiful photo, masterpiece, indoor
-                    scene
-                </p>
-            </div>
+            
+
             <!-- Repeat the above pattern for each pair of videos -->
         </div>
 
