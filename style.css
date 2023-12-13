@@ -286,7 +286,7 @@ code {
 }
 
 .video-container {
-    width: 48%; /* Adjust the width as needed */
+    width: 37%; /* Adjust the width as needed */
     float: left; /* This makes the containers sit side by side */
     margin: 1%; /* Provides some space between the containers */
 
@@ -301,4 +301,5 @@ code {
     flex-wrap: wrap;
     justify-content: space-around; /* Adjust this as needed */
     align-items: flex-start; /* To align items at the top */
+
 }
