@@ -301,5 +301,43 @@ code {
     flex-wrap: wrap;
     justify-content: space-around; /* Adjust this as needed */
     align-items: flex-start; /* To align items at the top */
+}
 
+.grid-video-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin-bottom: 1px !important; */
+	margin-left: 10%; /* Increased left margin */
+    margin-right: 10%; /* Increased right margin */
+	padding: 0px 0; /* Small padding to prevent margin collapse */
+    box-sizing: border-box; /* Include padding in the box model */
+	margin-bottom: 0px;
+}
+
+
+.grid-video-container {
+    width: 18%; /* Adjust this percentage for width */
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+.grid-video-container video {
+    width: 100%; /* Video fills the container */
+    height: auto; /* Maintains aspect ratio */
+}
+
+@media screen and (max-width: 800px) {
+    .grid-video-container {
+        width: 45%; /* Larger percentage for smaller screens */
+    }
+}
+
+.video-description {
+    text-align: center;
+    /* font-family: Chalkduster, serif; */
+	font-size: 14px; /* Example font size */
+    font-style: oblique; /* Oblique font style for descriptions */
+    margin-top: 3px;	
+	margin-bottom: 0px; /* Reduced or adjusted bottom margin */
 }
